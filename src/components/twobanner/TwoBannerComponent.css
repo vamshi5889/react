@@ -1,0 +1,80 @@
+.two-banner-container {
+  background-color: #f1f1f1;
+  width: 100%;
+  display: inline-block;
+}
+.two-banner-container .two-banner-item {
+  width: 50%;
+  float : left;
+}
+.two-banner-container .inner-item {
+  display: block;
+  padding: 50px;
+}
+.two-banner-container .inner-item a {
+  display: block;
+  border-radius: 200px;
+}
+.two-banner-container .two-banner-box {
+  height: 300px;
+  border-radius: 200px;
+}
+.two-banner-container .two-banner-box .two-banner-tile {
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  border-radius: 200px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.65));
+}
+.two-banner-container .two-banner-box .two-banner-tile p {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+}
+.two-banner-container .two-banner-box .two-banner-tile .banner-title {
+  font-size: 32px;
+  margin: 40px 0;
+}
+.two-banner-container .two-banner-box .two-banner-tile .banner-bottom {
+  margin: 40px 0;
+  text-align: center;
+}
+.two-banner-container .two-banner-box .two-banner-tile .banner-bottom-inner {
+  width: 60%;
+  display: inline-block;
+  font-size: 18px;
+}
+.two-banner-container .two-banner-box .two-banner-tile .banner-bottom-info {
+  float: left;
+  background-color: yellowgreen;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.two-banner-container .two-banner-box .two-banner-tile .banner-bottom-price {
+  float: right;
+  background-color: orangered;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+@media(max-width: 480px) {
+  .two-banner-container .two-banner-item {
+    width: 100%;
+  }
+  .two-banner-container .inner-item {
+    padding: 20px 20px;
+  }
+  .two-banner-container .two-banner-box {
+    height: 250px;
+  }
+  .two-banner-container .two-banner-box .two-banner-tile .banner-title {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  .two-banner-container .two-banner-box .two-banner-tile .banner-bottom {
+    margin: 20px 0;
+  }
+  .two-banner-container .two-banner-box .two-banner-tile, .two-banner-container .inner-item a, .two-banner-container .two-banner-box {
+    border-radius: 100px;
+  }
+}

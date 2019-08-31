@@ -1,0 +1,26 @@
+.app-btn {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.app-btn-light {
+  background-color: #E5E5E5;
+  color: #000;
+}
+
+.app-btn-dark {
+  background-color: #000;
+  color: #E5E5E5;
+}
+
+.app-btn-sm {
+  padding: 8px 15px;
+  font-size: 12px;
+}
+.app-btn-lg {
+  padding: 15px 25px;
+  font-size: 18px;
+}

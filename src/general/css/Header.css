@@ -1,0 +1,61 @@
+.App-logo-container {
+  float: left;
+  padding: 10px;
+  color: #fff;
+}
+.App-logo-container img {
+  float: left;
+}
+.App-logo-container span {
+  vertical-align: -webkit-baseline-middle;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  pointer-events: none;
+}
+.App-header {
+  background-color: #000;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.header-center {
+  display: inline-block;
+  height: 60px;
+  width: 70%;
+  text-align: center;
+}
+.header-nav-search {
+  padding: 15px;
+  display: inline-block;
+  width: 60%;
+}
+.header-nav-search .search-input {
+  padding: 7px;
+  background-color: #272727;
+  border: 0;
+  width: 100%;
+  color: #fff;
+  outline: none;
+}
+.header-right-actions {
+  float: right;
+  padding: 15px 10px;
+}
+.header-cart-icon {
+  padding: 15px;
+  display: inline-block;
+  float: right;
+}
+.header-cart-icon img {
+  width: 30px;
+}
+
+@media(max-width: 480px) {
+  .header-center {
+    display: none;
+  }
+}

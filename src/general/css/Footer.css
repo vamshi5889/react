@@ -1,0 +1,32 @@
+.App-logo-container {
+  float: left;
+  padding: 10px;
+}
+
+.App-logo-container img {
+  float: left;
+}
+
+.App-logo-container span {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #000;
+  height: 60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header-right-actions {
+  float: right;
+  padding: 15px 10px;
+}

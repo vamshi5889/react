@@ -1,0 +1,28 @@
+.course-container {
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  background-color: #f1f1f1;
+}
+.course-container .course-heading {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 600;
+}
+.course-container .course-heading-sm {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+}
+.course-container .course-description {
+  font-size: 24px;
+}
+.course-container-left {
+  width: 60%;
+  padding: 0 20px;
+  float: left;
+}
+.course-container-right {
+  width: 40%;
+  float: left;
+}

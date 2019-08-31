@@ -1,0 +1,101 @@
+.course-grid-container {
+  background-color: #f1f1f1;
+  padding: 40px 5% 30px;
+}
+.course-grid-header {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.course-grid-header .bundle-price-info {
+  float: right;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #DD0808;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+.course-grid-container .course-grid-body {
+  padding: 5px;
+}
+.course-grid-container .course-grid-title {
+  float: left;
+  font-size: 32px;
+  font-weight: 600;
+}
+.course-grid-container .course-grid-body ul.course-grid-ul {
+  padding: 0;
+  display: inline-block;
+  margin: 0 -20px;
+}
+.course-grid-container .course-grid-body ul li.course-grid-li {
+  list-style-type: none;
+  display: inline-block;
+}
+.course-grid-container .course-grid-body ul li.course-grid-li:first-child {
+  padding-left: 0;
+}
+.course-grid-container .course-grid-body ul li.course-grid-li:last-child {
+  padding-right: 0;
+}
+.course-grid-body ul .course-grid-li a {
+  padding: 10px;
+  display: block;
+  border-radius: 10px;
+}
+.course-grid-body ul li.course-grid-li.course-grid-3 {
+  width: 33.3%;
+}
+.course-grid-body ul li.course-grid-li.course-grid-4 {
+  width: 25%;
+}
+.course-grid-body ul li.course-grid-li a .course-grid-box {
+  width: 100%;
+  height: 200px;
+  float: left;
+  background-size: cover;
+  border-radius: 10px;
+}
+.course-grid-body ul li.course-grid-li a .course-grid-box .product-item-title {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.65));
+}
+.course-grid-body ul li.course-grid-li a .course-grid-box .product-item-title div {
+  padding: 10px;
+  font-size: 24px;
+  white-space: normal;
+  display: inline-block;
+}
+
+@media(max-width: 480px) {
+  .course-grid-container {
+    padding: 20px 5% 15px;
+  }
+  .course-grid-container .course-grid-title {
+    font-size: 18px;
+  }
+  .course-grid-container .course-grid-body ul.course-grid-ul {
+    margin: 0 -10px;
+  }
+  .course-grid-body ul .course-grid-li a {
+    padding: 5px;
+  }
+  .course-grid-body ul li.course-grid-li.course-grid-3, .course-grid-body ul li.course-grid-li.course-grid-4 {
+    width: 50%;
+  }
+  .course-grid-body ul li.course-grid-li a .course-grid-box {
+    height: 100px;
+    border-radius: 5px;
+  }
+  .course-grid-body ul li.course-grid-li a .course-grid-box .product-item-title {
+    border-radius: 5px 5px 0 0;
+  }
+  .course-grid-body ul li.course-grid-li a .course-grid-box .product-item-title div {
+    padding: 5px;
+    font-size: 14px;
+  }
+}

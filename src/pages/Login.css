@@ -1,0 +1,15 @@
+.login-main-section {
+  height: 100vh;
+}
+.login-container {
+  width: 500px;
+  margin: 100px auto;
+}
+.login-container form input {
+  height: 40px;
+  padding: 5px 15px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+}

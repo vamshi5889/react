@@ -1,0 +1,96 @@
+.course-container {
+  width: 100%;
+  display: inline-block;
+  background-color: #f1f1f1;
+}
+.course-top-container {
+  padding: 20px;
+  display: inline-block;
+}
+.course-container .course-heading {
+  font-size: 36px;
+  margin: 0;
+  font-weight: 600;
+}
+.course-container .course-heading-sm {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+}
+.course-container .course-description {
+  font-size: 20px;
+}
+.course-container-left {
+  width: 60%;
+  float: left;
+}
+.course-container-left .course-left-section {
+  padding: 0 20px;
+}
+.course-container-right {
+  width: 40%;
+  float: left;
+}
+.instructor-container {
+  padding: 0 20px;
+}
+.instructor-container .instructor-main {
+  background-color: #fff;
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+}
+.instructor-container .instructor-left, .instructor-container .instructor-right {
+  height: 250px;
+  overflow: hidden;
+}
+.instructor-container .instructor-left, .course-faqs-container {
+  width: 40%;
+  float: left;
+  background-size: cover;
+  border-radius: 5px 0 0 5px;
+}
+.instructor-container .instructor-right, .course-sections-container {
+  width: 60%;
+  float: left;
+}
+.instructor-container .instructor-desc {
+  padding: 10px;
+}
+.instructor-title {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.65));
+  padding: 10px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 206px;
+}
+.course-main-container {
+  clear: both;
+  background-color: #fff;
+}
+.course-main-container .course-curriculam {
+  padding: 20px 40px;
+}
+.course-main-container .course-curriculam-body {
+  display: inline-block;
+  width: 100%;
+}
+.course-main-container .course-sections-inner {
+  padding: 20px 0;
+}
+.course-main-container .course-section-heading {
+  background-color: #c3c3c3;
+  padding: 10px;
+}
+.course-main-container .course-section-item {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+.course-main-container .course-section-item .item-body {
+  display: inline-block;
+  width: 100%;
+}
+.course-main-container .course-section-btn {
+  float: right;
+}
