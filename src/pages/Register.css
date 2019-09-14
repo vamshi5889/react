@@ -5,14 +5,11 @@
   width: 500px;
   margin: 100px auto;
 }
-.login-container form {
-
-}
 .login-container form input {
   height: 40px;
   padding: 5px 15px;
   border: none;
-  width: -webkit-fill-available;
+  width: 100%;
   border-radius: 5px;
   background-color: #e5e5e5;
 }

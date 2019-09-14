@@ -84,6 +84,14 @@ class Login extends Component {
                 type="submit"
                 value="Login"
               />
+              &nbsp; &nbsp;
+              <a href="/register">
+                <Button
+                  theme="color" size="lg"
+                  type="button"
+                  value="SignUp"
+                />
+              </a>
             </form>
           </div>
         </div>

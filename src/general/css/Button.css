@@ -6,6 +6,10 @@
   outline: none;
 }
 
+.app-btn.right {
+  float: right;
+}
+
 .app-btn-light {
   background-color: #E5E5E5;
   color: #000;
@@ -14,6 +18,11 @@
 .app-btn-dark {
   background-color: #000;
   color: #E5E5E5;
+}
+
+.app-btn-color {
+  background-color: orangered;
+  color: #fff;
 }
 
 .app-btn-sm {

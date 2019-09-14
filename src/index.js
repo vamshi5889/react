@@ -6,6 +6,7 @@ import App from './App';
 import CourseDetails from './pages/CourseDetails';
 import CourseList from './pages/CourseList';
 import Login from './pages/Login';
+import Register from './pages/Register';
 import Amplify from 'aws-amplify';
 import config from './config';
 import * as serviceWorker from './serviceWorker';
@@ -24,6 +25,7 @@ const routing = (
   <Router>
     <div>
       <Route path="/login" component={Login} />
+      <Route path="/register" component={Register} />
       <Route path="/home" component={App} />
       <Route path="/courseList" component={CourseList} />
       <Route path="/courseDetails" component={CourseDetails} />
