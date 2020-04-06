@@ -14,7 +14,6 @@ class App extends Component {
         <Header />
         <Banner type="single"/>
         <TwoBanner />
-        Changing
         {/*<ProductList shape="square" url="https://api.myjson.com/bins/o4dlv"/>
         <ProductList shape="square" url="https://api.myjson.com/bins/e2kwz"/>
         <ProductList shape="rect" url="https://api.myjson.com/bins/irb2f"/>
