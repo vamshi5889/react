@@ -14,10 +14,10 @@ class App extends Component {
         <Header />
         <Banner type="single"/>
         <TwoBanner />
-        {/*<ProductList shape="square" url="https://api.myjson.com/bins/o4dlv"/>
+        <ProductList shape="square" url="https://api.myjson.com/bins/o4dlv"/>
         <ProductList shape="square" url="https://api.myjson.com/bins/e2kwz"/>
         <ProductList shape="rect" url="https://api.myjson.com/bins/irb2f"/>
-        <ProductGrid size="4" url="https://api.myjson.com/bins/o4dlv"/>*/}
+        <ProductGrid size="4" url="https://api.myjson.com/bins/o4dlv"/>
         <Footer />
       </div>
     );
