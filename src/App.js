@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Banner type="single"/>
-        <TwoBanner />
+        <TwoBanner />Vamshi
         {/*<ProductList shape="square" url="https://api.myjson.com/bins/o4dlv"/>
         <ProductList shape="square" url="https://api.myjson.com/bins/e2kwz"/>
         <ProductList shape="rect" url="https://api.myjson.com/bins/irb2f"/>
