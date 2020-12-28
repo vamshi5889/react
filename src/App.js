@@ -12,9 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div>
-          TEST
-        </div>
         <Banner type="single"/>
         <TwoBanner />
         <ProductList shape="square" url="https://api.myjson.com/bins/o4dlv"/>
